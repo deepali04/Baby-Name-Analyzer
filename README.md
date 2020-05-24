@@ -1,5 +1,4 @@
-Baby Name Ranker
-
+## Baby Name Ranker :
 
 1.Function printNames() to print all names whose total number of births >100 in the selected file
 
