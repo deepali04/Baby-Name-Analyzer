@@ -1,4 +1,17 @@
-## Baby Name Ranker :
+## Introduction
+
+ The project determines the popularity of different baby names in the US over time by analyzing input data files. It is a part of an undertaken java course in which most of the work done on the concepts of **Java Strings** and **Java File Handling**.
+
+## Information about Data
+
+The data here contain the baby names from the United States year wise. The input files are .csv files for each year in format **"yob20XX.csv"**.
+The file contains name, gender, number of babies having that name in that particular year.
+
+for eg: Emma,F,20566 (1 row in a file yob2014.csv )
+
+
+
+
 
 1.Function printNames() to print all names whose total number of births >100 in the selected file
 
