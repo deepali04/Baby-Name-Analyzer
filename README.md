@@ -16,4 +16,9 @@ There are various functions we are writing to analyze the file.
 * **totalBirths (FileResource fr):** The function takes file as an argument and retrives total number of unique girls names, the number of unique boys names and the total names in the file.
 
 * **getRank (int year, String name, String gender):** The function takes three parameters year, name and gender (F for female and M for male). It returns the rank of the name in the file for the given gender.
-Rank 1 is the name with the highest number of births. If the name is not in the file, then -1 is returned. 
+Rank 1 is the name with the highest number of births. If the name is not in the file, then **-1** is returned.
+
+* **getName (int year, int rank, String gender):**  The function takes three parameters year, rank and gender (F for female and M for male). It returns the name of the person in the file at this rank.
+Rank 1 is the name with the highest number of births. If the rank does not exist in the file, then **“NO NAME”** is returned.
+
+* **whatIsNameInYear(String name, int year, int newYear, String gender):** The method has four parameters: a string name , an integer  year representing the year that name was born, an integer newYear and a stringnamed gender (F for female and M for male). It determines what name would have been named if they were born in a different year, based on the same popularity. It determines the rank of name in the year they were born, and then print the name born in newYear that is at the same rank and same gender.
