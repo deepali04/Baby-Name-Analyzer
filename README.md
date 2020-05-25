@@ -38,7 +38,7 @@ same gender and same year who are ranked higher than name.
 
 * **For Compilation:** Java RankNames.java
 
-* **For Running:** java RankNames
+* **For Running:** javac RankNames
 
 Here RankNames in filename
 
