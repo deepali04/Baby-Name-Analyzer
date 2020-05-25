@@ -21,4 +21,9 @@ Rank 1 is the name with the highest number of births. If the name is not in the 
 * **getName (int year, int rank, String gender):**  The function takes three parameters year, rank and gender (F for female and M for male). It returns the name of the person in the file at this rank.
 Rank 1 is the name with the highest number of births. If the rank does not exist in the file, then **“NO NAME”** is returned.
 
-* **whatIsNameInYear(String name, int year, int newYear, String gender):** The method has four parameters: a string name , an integer  year representing the year that name was born, an integer newYear and a stringnamed gender (F for female and M for male). It determines what name would have been named if they were born in a different year, based on the same popularity. It determines the rank of name in the year they were born, and then print the name born in newYear that is at the same rank and same gender.
+* **whatIsNameInYear (String name, int year, int newYear, String gender):** The method has four parameters: a string name , an integer  year representing the year that name was born, an integer newYear and a stringnamed gender (F for female and M for male). It determines what name would have been named if they were born in a different year, based on the same popularity. It determines the rank of name in the year they were born, and then print the name born in newYear that is at the same rank and same gender.
+Eg: Isabella born in 2012 would be Sophia if she was born in 2014.
+
+* **yearOfHighestRank (String name, String gender):** The method takes two parameters, a string name and a string gender (F for female and M for male). It selects a range of files to process and returns an integer, the year with the highest rank for the name and gender. If the name and gender are not in any of the selected files, it will return 1.
+
+* **getAverageRank (String name, String gender):** 
