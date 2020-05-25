@@ -11,7 +11,7 @@ for eg: Emma,F,20566 (1 row in a file yob2014.csv )
 
 ## Functionalities
 
-There are various functions we are writing to analyze the file.
+There are various functions to analyze the file of baby names.
 
 * **totalBirths (FileResource fr):** The function takes file as an argument and retrives total number of unique girls names, the number of unique boys names and the total names in the file.
 
@@ -31,3 +31,14 @@ the selected files. It should return **1.0** if the name is not ranked in any of
 
 * **getTotalBirthsRankedHigher (int year, String name, String gender):** This method takes three parameters, an integer year, a string  name and a string gender (F for female and M for male). It returns an integer, the total number of births of those names with the
 same gender and same year who are ranked higher than name.
+
+* **printNames():** This methos prints data from file like how many babies are having any particular name. For eg: Emma,F,20456 (There are 20456 female babies having name Emma).
+
+## Compiling and Running the file
+
+* **For Compilation:** Java RankNames.java
+
+* **For Running:** java RankNames
+
+Here RankNames in filename
+
