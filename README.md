@@ -40,5 +40,5 @@ same gender and same year who are ranked higher than name.
 
 * **For Running:** javac RankNames
 
-Here RankNames in filename
+Here RankNames is filename.
 
