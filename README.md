@@ -24,6 +24,10 @@ Rank 1 is the name with the highest number of births. If the rank does not exist
 * **whatIsNameInYear (String name, int year, int newYear, String gender):** The method has four parameters: a string name , an integer  year representing the year that name was born, an integer newYear and a stringnamed gender (F for female and M for male). It determines what name would have been named if they were born in a different year, based on the same popularity. It determines the rank of name in the year they were born, and then print the name born in newYear that is at the same rank and same gender.
 Eg: Isabella born in 2012 would be Sophia if she was born in 2014.
 
-* **yearOfHighestRank (String name, String gender):** The method takes two parameters, a string name and a string gender (F for female and M for male). It selects a range of files to process and returns an integer, the year with the highest rank for the name and gender. If the name and gender are not in any of the selected files, it will return 1.
+* **yearOfHighestRank (String name, String gender):** The method takes two parameters, a string name and a string gender (F for female and M for male). It selects a range of files to process and returns an integer, the year with the highest rank for the name and gender. If the name and gender are not in any of the selected files, it will return **1**.
 
-* **getAverageRank (String name, String gender):** 
+* **getAverageRank (String name, String gender):** This method takes two parameters, a string name and a string gender (F for female and M for male). It selects a range of files to process and returns a double representing the average rank of the name and gender over
+the selected files. It should return **1.0** if the name is not ranked in any of the selected files.
+
+* **getTotalBirthsRankedHigher (int year, String name, String gender):** This method takes three parameters, an integer year, a string  name and a string gender (F for female and M for male). It returns an integer, the total number of births of those names with the
+same gender and same year who are ranked higher than name.
