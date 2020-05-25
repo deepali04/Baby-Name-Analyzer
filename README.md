@@ -36,9 +36,9 @@ same gender and same year who are ranked higher than name.
 
 ## Compiling and Running the file
 
-* **For Compilation:** Java RankNames.java
+* **For Compilation:** javac RankNames.java
 
-* **For Running:** javac RankNames
+* **For Running:** java RankNames
 
 Here RankNames is filename.
 
