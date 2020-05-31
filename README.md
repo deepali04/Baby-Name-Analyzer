@@ -4,10 +4,10 @@
 
 ## Information about Data
 
-The data here contain the baby names from the United States year wise. The input files are .csv files for each year in format **"yob20XX.csv"**.
+The data contain the baby names from the United States year wise. The input files are .csv files for each year in format **"yob20XX.csv"**.
 The file contains name, gender, number of babies having that name in that particular year.
 
-for eg: Emma,F,20566 (1 row in a file yob2014.csv )
+for eg: Emma,F,20566 (a row in a file)
 
 ## Functionalities
 
@@ -22,7 +22,7 @@ Rank 1 is the name with the highest number of births. If the name is not in the 
 Rank 1 is the name with the highest number of births. If the rank does not exist in the file, then **“NO NAME”** is returned.
 
 * **whatIsNameInYear (String name, int year, int newYear, String gender):** The method has four parameters: a string name , an integer  year representing the year that name was born, an integer newYear and a stringnamed gender (F for female and M for male). It determines what name would have been named if they were born in a different year, based on the same popularity. It determines the rank of name in the year they were born, and then print the name born in newYear that is at the same rank and same gender.
-Eg: Isabella born in 2012 would be Sophia if she was born in 2014.
+Eg: Isabella born in 2012 would be Sophia if she was born in 2014 according to data.
 
 * **yearOfHighestRank (String name, String gender):** The method takes two parameters, a string name and a string gender (F for female and M for male). It selects a range of files to process and returns an integer, the year with the highest rank for the name and gender. If the name and gender are not in any of the selected files, it will return **1**.
 
@@ -38,7 +38,5 @@ same gender and same year who are ranked higher than name.
 
 * **For Compilation:** javac RankNames.java
 
-* **For Running:** java RankNames
-
-Here RankNames is filename.
+* **For Running:** java RankNames (RankNames is my file name)
 
